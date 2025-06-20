@@ -39,4 +39,25 @@ const myFunction=function(){
 //https://262.ecma-international.org/5.1/#sec-11.4.3//read for interview
 
 
+//STACK AND HEAP MEMORY:
+//stack(primitve)heap(non-primitive)
+let myYoutubeName="hiteshchaudhurydorcom"
+let anothername=myYoutubeName;
+anothername="chaiaurcode"
+//console.log(anothername);
+//console.log(myYoutubeName);
+
+let user1={
+    email:"user@google.com",
+    upi:"user@ybl",
+}
+let user2=user1;
+user2.email="hitesh@google.com"
+console.log(user2);
+console.log(user1);
+
+
+
+
+
 
